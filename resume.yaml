@@ -1,0 +1,123 @@
+$schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json"
+
+basics:
+  name: "Emil Juzovitski"
+  # email: ""
+  # phone: ""
+  summary: Tenured Data Engineer and general developer, experience with most things in the stack, from Infra to Flink Jobs.
+  # url: ""
+  location:
+    city: Stockholm
+    countryCode: "SE"
+  profiles:
+    - network: Github
+      username: "juzov"
+      url: "https://github.com/juzov"
+    - network: Linkedin
+      username: "juzov"
+      url: "https://www.linkedin.com/in/juzov/"
+
+work:
+  - name: Billie GmbH
+    position: Data Engineer
+    location: Stockholm/Berlin
+    description: Billie is BNPL platform for B2B checkouts
+    summary: "Building a new Data Stack on top of Domain Driven Architecture"
+    startDate: "2022-09"
+    highlights:
+      - Lead the Tech Design on multiple projects
+      - Kappa Architecture Development
+      - Deployed HA platforms for e.g. Flink, Airflow on K8s
+      - Work on creating a self-serve ecosystem, where domain-knowers own their jobs on our platforms.
+      - Reduced data stack costs in the ten-figures
+    tech:
+      - Flink
+      - AWS
+      - Kubernetes
+      - Python
+      - ArgoCD
+      - Airflow
+      - Snowflake
+      - Github Actions
+      - Kafka
+      - Java
+      - Terraform
+  - name: Mag Interactive AB
+    position: Data Engineer
+    location: Stockholm
+    description: Mag Interactive is a mobile gaming company with games hitting the top 10 charts across the world.
+    summary: "Data Modeling and Pipeline development through functional programming principles"
+    startDate: "2020-04"
+    endDate: "2022-08"
+    highlights:
+      - Lead Migration to Airflow, from inhouse pipeline project
+      - Designed a partition based data model, for optimized batch pipelines, cost and query performance.
+    tech:
+      - Bigquery
+      - GCP
+      - Kubernetes
+      - Python
+      - Airflow
+      - Github Actions
+      - Terraform
+  - name: Rocker
+    position: Data Engineer
+    location: Stockholm
+    description: Rocker is a neo-bank offering e.g. bank cards, and savings accounts to their customers
+    summary: "ELT Pipeline development"
+    startDate: "2019-11"
+    endDate: "2020-03"
+  - name: Soundtrack Your Brand
+    position: Machine Learning Intern (Master Thesis)
+    location: Stockholm
+    description: Sountrack Your Brand, creates custom sound experiences for buisnesses. 
+    summary: "Cutting edge clustering techniques to cluster soungs by similarity"
+    startDate: "2019-01"
+    endDate: "2019-06"
+    tech:
+      - Python
+      - C
+      - Numpy C-Api
+      - Pandas
+education:
+  - institution: Royal Institute Of Technology (KTH)
+    area: Computer Science Spec. Machine Learning
+    studyType: Masters
+  - institution: Royal Institute Of Technology (KTH)
+    area: Information and Communication Technology
+    studyType: Bachelors
+  - institution: University of Michigan-Shanghai Jiao Tong University Joint Institute 
+    area: Computer Science
+    studyType: Exchange
+projects:
+  - name: LLM-chain
+    description: "Light-weight Rust framework for interacting with LLMS, in sequences larger than the normal LLM context window"
+    highlights:
+      - "LLM Agnostic framework for sequence handling"
+    keywords:
+      - "Rust"
+      - "llama.cpp"
+      - "ChatGPT"
+    url:
+      https://llm-chain.xyz/
+    roles: 
+      - "Co-creator"
+    entity: 
+      "Sobel.io"
+    type:
+      "open-source"
+  - name: THS Armada (KTH)
+    description: "The annual career fair at KTH"
+    highlights:
+      - "General webdev"
+    keywords:
+      - "Django"
+    url:
+      https://armada.nu/
+    roles: 
+      - "Backend Engineer"
+    entity: 
+      KTH
+    type:
+      "Student Volunteering"
+
