@@ -1,0 +1,49 @@
+$schema: "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json"
+
+basics:
+  name: "Emil Juzovitski"
+  # email: ""
+  # phone: ""
+  summary: Tenured Data Engineer and general developer, experience with most things in the stack, from Infra to Flink Jobs.
+  # url: ""
+  location:
+    city: Stockholm
+    countryCode: "SE"
+  profiles:
+    - network: github
+      username: "juzov"
+      url: "https://github.com/juzov"
+
+work:
+  - name: Billie GmbH
+    position: Data Engineer
+    location: Stockholm/Berlin
+    description: Creandum is a leading European Venture Capital firm with offices in SF, Berlin and Stockholm.
+    summary: "Building a new Data Stack on top of Domain Driven Architecture"
+    startDate: "2022-09"
+    highlights:
+      - Lead the Tech Design on multiple projects
+      - Kappa Architecture Development
+      - Deployed HA platforms for e.g. Flink, Airflow on K8s
+      - Work on creating a self-serve ecosystem, where domain-knowers own their jobs on our platforms.
+    tech:
+      - Flink
+      - AWS
+      - Kubernetes
+      - Python
+      - ArgoCD
+      - Airflow
+      - Snowflake
+      - Github Actions
+      - Kafka
+education:
+  - institution: Royal Institute Of Technology (KTH)
+    area: Computer Science Spec. Machine Learning
+    studyType: Masters
+  - institution: Royal Institute Of Technology (KTH)
+    area: Information and Communication Technology
+    studyType: Bachelors
+  - institution: University of Michigan-Shanghai Jiao Tong University Joint Institute 
+    area: Computer Science
+    studyType: Exchange
+
