@@ -25,17 +25,16 @@ work:
     summary: "Building a new Data Stack on top of Domain Driven Architecture"
     startDate: "2022-09"
     highlights:
-      - Lead the Tech Design on multiple projects
-      - Kappa Architecture Development
-      - Deployed HA platforms for e.g. Flink, Airflow on K8s
-      - Work on creating a self-serve ecosystem, where domain-knowers own their jobs on our platforms.
-      - Reduced data stack costs in the ten-figures
+      - Deployed HA infra platforms for Flink and Airflow on K8s, using Terraform, ArgoCD and Github Actions
+      - Created a fully-fledged streaming Feature store, with Flink, Iceberg and Kafka
+      - Reduced data stack costs in the order of $100k+ (Snowflake, AWS)
     tech:
       - Flink
       - AWS
       - Kubernetes
       - Python
       - ArgoCD
+      - Iceberg
       - Airflow
       - Snowflake
       - Github Actions
@@ -52,6 +51,7 @@ work:
     highlights:
       - Lead Migration to Airflow, from inhouse pipeline project
       - Designed a partition based data model, for optimized batch pipelines, cost and query performance.
+      - Created integrations with various external providers. 
     tech:
       - Bigquery
       - GCP
